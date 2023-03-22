@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const ImageQuestion = ({ setObject }) => {
+const ImageQuestion = ({ object, setObject }) => {
   const [objects, setObjects] = useState([]);
 
   useEffect(() => {
@@ -22,8 +22,8 @@ const ImageQuestion = ({ setObject }) => {
 
   return (
     <div>
-      {objects.length > 0 && (
-        <img src={objects.imageUrl} alt="Greek object" style={{ width: "100%" }} />
+      {object && (
+        <img src={object.imageUrl} alt="Greek object" style={{ width: "100%" }} />
       )}
     </div>
   );

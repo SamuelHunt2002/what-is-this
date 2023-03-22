@@ -1,13 +1,58 @@
 [
     {
       "id": 1,
-      "name": "Object 1",
-      "imageUrl": "path/to/image1.jpg"
+      "name": "Parthenon",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_Parthenon_in_Athens.jpg"
     },
     {
       "id": 2,
-      "name": "Object 2",
-      "imageUrl": "path/to/image2.jpg"
-    }
+      "name": "Kouros Statue",
+      "imageUrl": "https://preview.redd.it/vcqem72uqq541.jpg?auto=webp&s=f4efca955860ac43ca602afc2c383bb57607d675"
+    },
+    {
+      "id": 3,
+      "name": "Ancient Greek Amphora",
+      "imageUrl": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_10/9b80df29_eb6d_47ef_a8bd_a3e100a68407/mid_00093706_001.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Discobolus",
+      "imageUrl": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/6_9/046d5b0a_7fda_45a1_93ba_a3bc00988e81/mid_00398587_001.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Temple of Olympian Zeus",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/L%27Olympieion_%28Ath%C3%A8nes%29_%2830776483926%29.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Doric Column",
+      "imageUrl": "http://cdn.shopify.com/s/files/1/2547/4920/products/BR101-brockwell-columns-fluted-greek-doric-design-fiberglass-1_1024x.jpg?v=1565339042"
+    },
+    {
+      "id": 7,
+      "name": "Caryatid",
+      "imageUrl": "https://cdn.britannica.com/98/178998-050-0E496D01/porch-Caryatid-Erechtheum-Athens-Acropolis.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Hermes of Praxiteles",
+      "imageUrl": "https://holeinthedonut.com/wp-content/uploads/2018/07/Greece-Olympia-Archaeological-Museum-sculpture-of-Hermes-of-Praxiteles.jpg"
+    }, 
+    {
+        "id": 9,
+        "name": "Souvlaki",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Souvlaki_in_Athens.JPG"
+      },
+      {
+        "id": 10,
+        "name": "Moussaka",
+        "imageUrl": "https://www.recipetineats.com/wp-content/uploads/2019/03/Greek-Moussaka_3-re-edited-SQ.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Spanakopita",
+        "imageUrl": "https://www.thespruceeats.com/thmb/2Fk-NEscVoBNWDuzbiQw-LyS-QQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spinach-pie-with-feta-spanakopita-1706022_hero-01-80cc6ee388474e7aad68e1d009766967.jpg"
+      }
   ]
   
