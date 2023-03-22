@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "./ImageQuestion.css";
 
-const ImageQuestion = ({ object, setObject }) => {
-  const [objects, setObjects] = useState([]);
-
+const ImageQuestion = ({ object, setObject, objects, setObjects }) => {
   useEffect(() => {
     const fetchObjects = async () => {
       const response = await axios.get("/greek_objects.json");
@@ -11,7 +10,7 @@ const ImageQuestion = ({ object, setObject }) => {
     };
 
     fetchObjects();
-  }, []);
+  }, [setObjects]);
 
   useEffect(() => {
     if (objects.length > 0) {
@@ -21,9 +20,9 @@ const ImageQuestion = ({ object, setObject }) => {
   }, [objects, setObject]);
 
   return (
-    <div>
+    <div className="image-container">
       {object && (
-        <img src={object.imageUrl} alt="Greek object" style={{ width: "100%" }} />
+        <img src={object.imageUrl} alt="Greek object" className="greek-object-image" />
       )}
     </div>
   );
