@@ -53,6 +53,11 @@
         "id": 11,
         "name": "Spanakopita",
         "imageUrl": "https://www.thespruceeats.com/thmb/2Fk-NEscVoBNWDuzbiQw-LyS-QQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spinach-pie-with-feta-spanakopita-1706022_hero-01-80cc6ee388474e7aad68e1d009766967.jpg"
+      },
+      {
+        "id": 12, 
+        "name": "Yanis Varoufakis",
+        "imageUrl": "https://www.davidhigham.co.uk/wp-content/uploads/Yanis-Twitter.jpg"
       }
   ]
   
